@@ -2,8 +2,8 @@ import datetime, requests, schedule, time, json, csv, os
 
 
 # Login Details
-rawurl = 'https://z3nadvocate314.zendesk.com/api/v2/incremental/tickets?start_time='
-rawurl2 = 'https://z3nadvocate314.zendesk.com/api/v2/incremental/users?start_time='
+rawurl = 'https://subdomain.zendesk.com/api/v2/incremental/tickets?start_time='
+rawurl2 = 'https://subdomain.zendesk.com/api/v2/incremental/users?start_time='
 API_USER = "" + '/token'
 TOKEN_KEY = "*****"
 
